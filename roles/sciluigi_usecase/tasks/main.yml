@@ -50,6 +50,10 @@
   file:
       path=/home/ubuntu/proj/largescale_svm/runall.sh
       mode=744
+- name: Ensure Desktop is present
+  file:
+    path=/home/ubuntu/Desktop
+    state=directory
 - name: Place "Open Jupyter Notebook" icon on desktop
   copy:
       src=files/open_jupyter_notebook.desktop

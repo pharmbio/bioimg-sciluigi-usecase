@@ -17,4 +17,3 @@
     name={{ item }}
   with_items:
     - jupyter
-    - matplotlib
